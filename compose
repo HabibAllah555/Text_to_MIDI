@@ -1,0 +1,4 @@
+#/bin/bash
+nodejs test.js
+fluidsynth /usr/share/sounds/sf2/FluidR3_GM.sf2 output.mid -g 5 -F out.wav
+play out.wav
